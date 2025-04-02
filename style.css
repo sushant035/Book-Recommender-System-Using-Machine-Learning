@@ -1,0 +1,76 @@
+/* style.css */
+.stApp {
+    background-image: linear-gradient(to right top, #000000, #000000, #000000, #000000, #000000);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.search-box {
+    text-align: center;
+    background: rgb(98, 3, 3);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.selected-book {
+    margin: 1.5rem 0;
+}
+
+.book-info {
+    padding: 1rem;
+}
+
+.book-title {
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.recommendations {
+    margin: 2rem 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    color: #666;
+}
+
+/* Button styling */
+.stButton>button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Select box styling */
+.stSelectbox>div>div>select {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+}
